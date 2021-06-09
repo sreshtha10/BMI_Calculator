@@ -7,7 +7,7 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import kotlinx.android.synthetic.main.activity_display_result.*
-import kotlin.math.roundToInt
+
 
 class DisplayResultActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -19,7 +19,9 @@ class DisplayResultActivity : AppCompatActivity() {
 
         val gender = intent.getStringExtra("Gender")
 
-        tvBMI.text = ((bmi * 100).roundToInt() /100).toString()
+        val formatted_bmi = "%.2f".format(bmi)
+
+        tvBMI.text = formatted_bmi
 
         if(gender.equals("F")){
             if(bmi < 18.5){
