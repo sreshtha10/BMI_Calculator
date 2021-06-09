@@ -2,6 +2,9 @@
 
 Android App for calculating BMI (Body Mass Index) created using Kotlin.
 
-![bmi](https://user-images.githubusercontent.com/55186163/121392529-1c660b80-c96d-11eb-982b-fe0e5939648e.gif)
+
+![ezgif-3-4f3a7b06cc4f gif](https://user-images.githubusercontent.com/55186163/121393140-b1690480-c96d-11eb-864e-3c8ffd5a6fc5.gif)
+
+
 
 
